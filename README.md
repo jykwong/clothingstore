@@ -1,3 +1,2 @@
 # clothingstore
-guided from freecodecamp
-just trying thing out
+unfinished & guided from freecodecamp at https://www.youtube.com/watch?v=cT_ZYrS3tKc
