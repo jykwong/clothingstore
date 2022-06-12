@@ -25,6 +25,30 @@ let shopItemsData = [{
     price:300,
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
     img:"images/img-4.jpg"
+},{
+    id:"itemNo5",
+    name:"Black Shirt",
+    price: 40,
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+    img: "images/img-5.jpg"
+},{
+    id:"itemNo6",
+    name:"White Sweats",
+    price:100,
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+    img:"images/img-6.jpg"
+},{
+    id:"itemNo7",
+    name:"Horse Armor DLC",
+    price:300,
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+    img:"images/img-7.jpg"
+},{
+    id:"itemNo8",
+    name:"Adidas Hood",
+    price:100,
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+    img:"images/img-8.jpg"
 }]
 
 let basket = JSON.parse(localStorage.getItem("data")) || [];
@@ -35,7 +59,7 @@ let generateShop =()=>{
         let search = basket.find((x) => x.id === id) || []
         return `
         <div id=product-id-${id} class="item">
-                <img width="220" src="${img}" alt="">
+                <img width="220" height="230" src="${img}" alt="">
                 <div class="details">
                     <h3>${name}</h3>
                     <p>${desc}</p>
